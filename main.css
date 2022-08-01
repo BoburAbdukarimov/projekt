@@ -9,12 +9,13 @@
 body{
     width: 100%;
     height: 100vh;
+    background: #000;
 }
 .shop{
     background-image: url("./photos/model-1209985_1920\ 1.png");
-    background-position: center;
+    background-position: center right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 100%;
     height: 100%;
 }
@@ -31,10 +32,11 @@ header .logo h1{
   font-size: 32px;
   font-weight: 500;
   letter-spacing: 2.5px;
-   margin: 20px 0;
+  margin-top: 40px;
+  cursor: pointer;
 }
 .container{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 
 
@@ -42,14 +44,20 @@ header .logo h1{
 .nav ul li{
    list-style: none;
    display: inline-block;
-  
+   margin-left: 90px;
+   cursor: pointer;
 }
 .nav ul li a{
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
-    font-size: 20px;
-   text-transform: capitalize;
-   margin-right: 60px;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    display: inline-block;
+}
+.nav ul li a:hover{
+    color: #E0FF65;
+    transition: all .5s linear;
 }
  .nav ul li .active{
     color: #E0FF65;
@@ -66,23 +74,21 @@ header .logo h1{
 .logo-1{
     font-family: 'Encode Sans';
     font-weight: 400;
-    font-size: 24px;
+    letter-spacing: 2px;
+    font-size: 16px;
     font-style: normal;
     color: white;
     line-height: 30px;
     margin-top: 20px;
 }
 .matn{
-    width: 727px;
-    left: 143px;
-    top: 755px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 30px;
     color: white;
-    margin-top: 20px;
+    margin: 30px 0;
 }
 .btn-1{
     background: #E0FF65;
@@ -96,6 +102,9 @@ header .logo h1{
     font-size: 15px;
     display: inline-block;
     /* line-height: 48px; */
+    color: black;
+}
+.btn-1 a{
     color: black;
 }
 
