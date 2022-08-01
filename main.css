@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Encode+Sans:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Encode+Sans:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.shop{
+    background-image: url("./photos/model-1209985_1920\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .logo h1{
+  color: #FFFFFF;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+   margin: 20px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+.nav ul li{
+   list-style: none;
+   display: inline-block;
+  
+}
+.nav ul li a{
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+   text-transform: capitalize;
+   margin-right: 60px;
+}
+ .nav ul li .active{
+    color: #E0FF65;
+}
+.older h1{
+    font-family: 'Encode Sans';
+    font-weight: 400;
+    font-size: 80px;
+    font-style: normal;
+    color: #E0FF65;
+    line-height: 100px;
+    margin-top: 50px;
+}
+.logo-1{
+    font-family: 'Encode Sans';
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    color: white;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.matn{
+    width: 727px;
+    left: 143px;
+    top: 755px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    margin-top: 20px;
+}
+.btn-1{
+    background: #E0FF65;
+    border-radius: 10px;
+    /* width: 100px; */
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    /* line-height: 48px; */
+    color: black;
+}
+
